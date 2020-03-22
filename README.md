@@ -40,7 +40,7 @@ to get the numbers of who's infected, recovered, and healthy over time. `time_ev
 
 Finally, there are two plotting functions, `Epidemic.plot_pop` which makes a scatter plot that looks like:
 ```python
-sim1.plot_pop
+sim1.plot_pop()
 ```
 ![popplot][pop_plot]
 
