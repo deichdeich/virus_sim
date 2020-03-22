@@ -33,9 +33,9 @@ the population density and chooses the direction which goes away from the most p
 
 Then, you can do
 ```python
-history = sim1.time_evolve(200)
+history = sim1.time_evolve(Nsteps = 200)
 ```
-to get the numbers of who's infected, recovered, and healthy over time. `time_evolve` can also take the boolean parameter
+to get the numbers of who's infected, recovered, and healthy after `Nsteps` timesteps. `time_evolve` can also take the boolean parameter
 `verbose`, which, when `True` will spit out the current stats to the screen.
 
 Finally, there are two plotting functions, `Epidemic.plot_pop` which makes a scatter plot that looks like:
