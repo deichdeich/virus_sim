@@ -16,7 +16,7 @@ sim1 = vs.Epidemic(N = 1000,
                    inf_rad = 0.03,
                    pop_speed = 0.01,
                    inf_prob = 0.1,
-                   recovery_rate = 14)
+                   recovery_rate = 14,
                    motion = "brownian")
 ```
 
